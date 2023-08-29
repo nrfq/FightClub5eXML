@@ -276,4 +276,5 @@
     
     <!-- Homebrew -->
     <doc href="../Sources/Homebrew.xml" />
+    <doc href="../Sources/RevisedRangerUA.xml" />
 </collection>
