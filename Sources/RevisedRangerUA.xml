@@ -262,6 +262,8 @@
             <feature optional="YES">
                 <name>Extra Attack (Deep Stalker Conclave Feature)</name>
                 <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+                <text></text>
+                <text>Source: Unearthed Arcana: The Ranger, Revised p. 8</text>
             </feature>
         </autolevel>
 <!--        LEVEL 6-->
