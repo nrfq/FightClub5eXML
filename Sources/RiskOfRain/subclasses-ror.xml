@@ -14,6 +14,7 @@
                 <name>Momentum (Huntress Conclave Feature)</name>
                 <text>At 3rd level, you gain this ability. Each time you use the dash action, the critical strike threshold of your next attack is reduced by 2. This bonus can stack and resets to your normal amount each time you make an attack roll.</text>
                 <text>This does not guarantee a hit if the total for your to-hit is still below the target’s AC.</text>
+                <text/>
                 <text>Source: Cedric's Risk of Rain Homebrew</text>
             </feature>
             <feature optional="YES">
