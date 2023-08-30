@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<compendium version="5">
+<compendium version="5" auto_indent="YES">
     <class>
         <name>Revised Ranger</name>
 <!--        LEVEL 3-->
@@ -7,7 +7,7 @@
             <feature optional="YES">
                 <name>Ranger Conclave: Huntress</name>
                 <text>The huntress is extremely mobile but more fragile, able to dodge attacks and unleash retaliatory attacks with ease.</text>
-                <text></text>
+                <text/>
                 <text>Source: Cedric's Risk of Rain Homebrew</text>
             </feature>
             <feature optional="YES">
@@ -20,19 +20,22 @@
                 <name>Laser Glaive (Huntress Conclave Feature)</name>
                 <text>You can throw a seeking smart laser glaive able to bounce to nearby enemies. You can use an action to make a ranged attack using DEX (Range 50/100). On a hit, this glaive does 1d10 + DEX radiant damage. If there is another target within 20 feet, you can choose to make this glaive bounce to them, dealing 1d6 + DEX Radiant damage. The glaive can bounce up to two times, hitting a total of three different targets.</text>
                 <text>The maximum number of targets increases to four at 7th level, to 5 at 11th level, and to 6 at 15th level. You can use this attack once per short rest.</text>
-                <text></text>
+                <text/>
                 <text>Source: Cedric's Risk of Rain Homebrew</text>
             </feature>
+            <counter>
+                <name>Laser Glaive</name>
+                <value>1</value>
+                <reset>S</reset>
+            </counter>
         </autolevel>
 <!--        LEVEL 5-->
         <autolevel level="5">
             <feature optional="YES">
                 <name>Extra Attack (Huntress Conclave Feature)</name>
                 <text>You can attack twice, instead of once, when you take the attack action on your turn.</text>
-                <text></text>
+                <text/>
                 <text>Source: Cedric's Risk of Rain Homebrew</text>
-                <value>1</value>
-                <reset>S</reset>
             </feature>
         </autolevel>
 <!--        LEVEL 7-->
@@ -41,10 +44,8 @@
                 <name>Phase Blink (Huntress Conclave Feature)</name>
                 <text>You gain the ability to teleport short distances to avoid attacks or augment your speed. You can use an action or a reaction in response to being targeted by an attack to blink out of existence and immediately reappear at a location a number of feet equal to half your speed away.</text>
                 <text>You may use this blink a number of times equal to your proficiency bonus. You regain all expended uses at the end of a long rest.</text>
-                <text></text>
+                <text/>
                 <text>Source: Cedric's Risk of Rain Homebrew</text>
-                <value>%</value>
-                <reset>L</reset>
             </feature>
         </autolevel>
 <!--        LEVEL 11-->
@@ -52,14 +53,17 @@
             <feature optional="YES">
                 <name>Laser Cyclone (Huntress Conclave Feature)</name>
                 <text>You gain one extra use of Laser Glaive each short rest and a new type of Glaive to use. When you use an action to deploy a Laser Glaive, you can instead deploy a Laser Cyclone.</text>
-                <text></text>
+                <text/>
                 <text>Laser Cyclone Glaive</text>
                 <text>This glaive fills a 10 x 10 foot space and is sent 30 feet from you in one direction you choose and at the end of each of your turns, moves 15 feet straight towards you. Any time the glaive moves through the space of a creature, you can choose to force them to make a DC 8 + Proficiency + DEX modifier DEX save, taking 2d6 radiant damage on a failure or half as much on a success. Once the glaive returns to the space you occupy it deactivates.</text>
-                <text></text>
+                <text/>
                 <text>Source: Cedric's Risk of Rain Homebrew</text>
-                <value>1</value>
-                <reset>L</reset>
             </feature>
+            <counter>
+                <name>Laser Cyclone</name>
+                <value>1</value>
+                <reset>S</reset>
+            </counter>
         </autolevel>
 <!--        LEVEL 17-->
         <autolevel level="17">
@@ -67,11 +71,13 @@
                 <name>Flurry (Huntress Conclave Feature)</name>
                 <text>You have gained the skill to fire quicker than ever before. When making a ranged attack, you can choose to fire three projectiles at once, dealing three times its damage dice on a hit. If this attack manages to critically strike, the number of dice is tripled instead of doubled.</text>
                 <text>You may make this special attack a number of times equal to your DEX modifier. You regain all expended uses at the end of a long rest.</text>
-                <text></text>
+                <text/>
                 <text>Source: Cedric's Risk of Rain Homebrew</text>
-                <value>dexterity</value>
-                <reset>L</reset>
             </feature>
+            <counter>
+                <name>Flurry</name>
+                <reset>L</reset>
+            </counter>
         </autolevel>
     </class>
 </compendium>
